@@ -25,8 +25,7 @@ int dp(int n)
         return 0;
 
     vector<int> nums;
-    while (n)
-        nums.push_back(n % B), n /= B;
+    while (n) nums.push_back(n % B), n /= B;
 
     int res = 0;
     int last = 0;
